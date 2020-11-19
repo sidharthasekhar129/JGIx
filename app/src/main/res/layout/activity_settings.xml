@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/back"
+                android:src="@drawable/ic_arrow_back_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textColor="@color/endblue"
+                android:text="Settings"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/endblue"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:text="Account"/>
+
+            <Switch
+                android:id="@+id/eandp"
+                android:textStyle="bold"
+                  android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track"
+                  android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Allow E-Mail and Phone Signing"
+                android:textSize="17sp"
+                android:padding="10dp"
+                />
+            <Switch
+                android:id="@+id/fingerprint"
+                android:textStyle="bold"
+                android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="17sp"
+                android:text="Allow Finger Print Login"
+                android:padding="10dp"
+                />
+            <Switch
+                android:id="@+id/storage"
+                android:textStyle="bold"
+                 android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textSize="17sp"
+                android:text="Account Storage permission"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/endblue"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:text="Message"/>
+
+            <Switch
+                android:id="@+id/textnotification"
+                android:textStyle="bold"
+                 android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Allow Text messages"
+                android:textSize="17sp"
+                android:padding="10dp"
+                />
+            <Switch
+                android:id="@+id/pushnotification"
+                android:textStyle="bold"
+                 android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Allow Push notification"
+                android:textSize="17sp"
+                android:padding="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/endblue"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:text="Security"/>
+
+             <Switch
+                android:id="@+id/otp"
+                 android:textStyle="bold"
+                  android:thumb="@drawable/sw_thumb"
+                 android:track="@drawable/sw_track"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Allow OTP verrification"
+                android:textSize="17sp"
+                android:padding="10dp"
+                />
+            <Switch
+                android:id="@+id/email"
+                android:textStyle="bold"
+                 android:thumb="@drawable/sw_thumb"
+                android:track="@drawable/sw_track"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Allow E-mail verrification"
+                android:textSize="17sp"
+                android:padding="10dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SecurityActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/gradient4"
+            android:layout_height="370dp">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="20sp"
+                android:background="@drawable/imagebackground"
+                android:src="@drawable/ic_lock_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Your Passcode"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="160dp"
+                android:orientation="horizontal"
+                android:layout_height="35dp">
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="39dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:background="#fff"
+                    android:maxLength="1"
+                    />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:background="#06DBF7"/>
+                <TextView
+                    android:id="@+id/tv2"
+                    android:gravity="center"
+                    android:maxLength="1"
+
+                    android:layout_width="38dp"
+                    android:layout_height="35dp"
+                    android:background="#fff"
+                    />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="30dp"
+                    android:background="#06DBF7"/>
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:gravity="center"
+                    android:maxLength="1"
+
+                    android:layout_width="38dp"
+                    android:layout_height="35dp"
+                    android:background="#fff"
+                    />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="30dp"
+                    android:background="#06DBF7"/>
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:gravity="center"
+                    android:maxLength="1"
+
+                    android:layout_width="39dp"
+                    android:layout_height="35dp"
+                    android:background="#fff"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="4"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+
+                    >
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="1"
+                        android:id="@+id/buut1"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text="2"
+                        android:id="@+id/buut2"
+
+                        android:background="#fff"
+
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/buut3"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text="3"
+                        android:background="#fff"
+
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+
+                    >
+                    <Button
+                        android:id="@+id/buut4"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="4"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/buut5"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text="5"
+                        android:background="#fff"
+
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/buut6"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text="6"
+                        android:background="#fff"
+
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+
+                    >
+                    <Button
+                        android:id="@+id/buut7"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="7"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/buut8"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text="8"
+                        android:background="#fff"
+
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/buut9"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text="9"
+                        android:background="#fff"
+
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+
+                    >
+                    <Button
+                        android:id="@+id/buutok"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:text="ok"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/buut0"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:background="#fff"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/buutdel"
+
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:text="del"
+                        android:background="#fff"
+
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

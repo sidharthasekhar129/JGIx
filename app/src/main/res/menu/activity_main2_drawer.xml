@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile_black_24dp"
+            android:title="@string/menu_profile" />
+
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_attendance_black_24dp"
+            android:title="@string/menu_attendance" />
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_results_black_24dp"
+            android:title="@string/menu_results" />
+        <item
+            android:id="@+id/nav_outpass"
+            android:icon="@drawable/ic_outpass"
+            android:title="@string/menu_outpass" />
+        <item
+            android:id="@+id/nav_sugestion"
+            android:icon="@drawable/ic_sugestion_black_24dp"
+            android:title="@string/menu_suggestion" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/menu_events" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/menu_settings" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceiptsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/back"
+                android:src="@drawable/ic_arrow_back_black_24dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/endblue"
+                    android:text="Receipts"/>
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="2dp"
+                    android:background="@color/endblue"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginTop="250dp"
+            android:text="Coming soon"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="play Ad"
+            android:id="@+id/ads"
+            android:background="@drawable/strokeboarder"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/coins"
+            android:layout_marginTop="25dp"
+            android:text="10"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

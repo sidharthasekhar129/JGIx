@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp"
+            >
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/jgilogo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:layout_gravity="center"
+                android:text="Welcome to Jain College "/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:text="E-Mail ID"
+                android:id="@+id/e1"/>
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#fff"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_person_black"
+                android:drawablePadding="5dp"
+                android:background="@drawable/strokeboarder"
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Password"
+                android:id="@+id/p1"/>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:backgroundTint="#fff"
+                android:background="@drawable/strokeboarder"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+
+                >
+                <EditText
+                    android:id="@+id/ed2"
+                    android:layout_width="270dp"
+                    android:layout_height="35dp"
+                    android:background="#fff"
+                    android:inputType="textPassword"
+                    android:drawableLeft="@drawable/ic_lock_black_24dp"
+                    android:drawablePadding="5dp" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:background="#fff"
+
+                    android:padding="3dp"
+                    android:id="@+id/showpassword"
+                    android:src="@drawable/ic_visibility_off"/>
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Remember me."
+                android:id="@+id/remember"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressbar"
+                    android:visibility="gone"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:layout_width="300dp"
+                    android:id="@+id/login"
+                     android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/stroke2"
+                    android:text="Login"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/signup"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"
+                    android:text="Dont have an account! Sign up here"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
