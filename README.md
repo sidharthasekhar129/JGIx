@@ -1,1 +1,1 @@
-# JGIx College app.final release 
+# JGIx College student app.final release 
